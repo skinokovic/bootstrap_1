@@ -1,0 +1,96 @@
+:root {
+  --primary: #1b3c53;
+  --secondary: #dce4c9;
+  --tertiary: #d2c1b6;
+  --footer: #f9f3ef;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f4f4;
+}
+
+#home .hero-text {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 5px 20px 5px 0px;
+}
+#about {
+  background: linear-gradient(#0f2027, #203a43, #2c5364);
+  /* background: url(./images/bg1.jpg); */
+}
+nav .nav-link.active {
+  color: #db3545 !important;
+}
+
+#course {
+  background: gray;
+}
+#course .course-title {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 5px 30px;
+}
+#boxes .col-lg-4 .card {
+  min-height: 510px;
+}
+
+#instructor img {
+  width: 120px;
+  border-radius: 50%;
+}
+#instructor .card {
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* max-height: 450px; */
+}
+#instructor .card a i {
+  font-size: 1rem;
+}
+#instructor .card a i:hover {
+  color: #db3545;
+}
+
+#about .card-text {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 5px 30px;
+}
+
+#about ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin-left: 1rem;
+  justify-content: center;
+}
+#pricing .pricing-text {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 5px 30px;
+}
+#instructor .instructor-text {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 5px 30px;
+}
+
+/* #instructor .card-text {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 0px 20px;
+} */
+
+footer i {
+  background-color: #db3545;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 10%;
+  right: 20px;
+}
+#footer .footer-text {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 5px 30px;
+}
