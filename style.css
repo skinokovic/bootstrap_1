@@ -25,7 +25,7 @@ nav .nav-link.active {
 #course {
   background: gray;
 }
-#course .course-title {
+#course .course-text {
   max-width: 800px;
   margin: 0 auto;
   padding: 5px 0px;
